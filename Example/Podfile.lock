@@ -1,0 +1,14 @@
+PODS:
+  - ZEasing (0.1.0)
+
+DEPENDENCIES:
+  - ZEasing (from `../`)
+
+EXTERNAL SOURCES:
+  ZEasing:
+    :path: ../
+
+SPEC CHECKSUMS:
+  ZEasing: be0f2dbe2b77022844835a1f5de19324ffd6c143
+
+COCOAPODS: 0.37.0.beta.1

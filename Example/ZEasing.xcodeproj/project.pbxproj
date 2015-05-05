@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		38D781CC1AF77BFE00ABF155 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 38D781C91AF77BFE00ABF155 /* .gitkeep */; };
+		38D781CD1AF77BFE00ABF155 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 38D781CB1AF77BFE00ABF155 /* .gitkeep */; };
+		38D781D01AF77C2D00ABF155 /* ZEasing.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D781CF1AF77C2D00ABF155 /* ZEasing.m */; };
+		38D781D31AF77D0B00ABF155 /* ZEasing+Linear.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D781D21AF77D0B00ABF155 /* ZEasing+Linear.m */; };
+		38D781D61AF79FED00ABF155 /* ZEasing+Quadratic.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D781D51AF79FED00ABF155 /* ZEasing+Quadratic.m */; };
+		38D781D91AF7A48500ABF155 /* ZEasing+Cubic.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D781D81AF7A48500ABF155 /* ZEasing+Cubic.m */; };
+		38D781DC1AF7A5A400ABF155 /* ZEasing+Quart.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D781DB1AF7A5A400ABF155 /* ZEasing+Quart.m */; };
+		38D781DF1AF7A69C00ABF155 /* ZEasing+Quintic.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D781DE1AF7A69C00ABF155 /* ZEasing+Quintic.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -22,6 +30,8 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		9B8A637F9AC43DFED0EED5EF /* libPods-ZEasing.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C09EEBD79C7EC7C94460CD22 /* libPods-ZEasing.a */; };
+		FC68BBE59C238A38FF7B2260 /* libPods-Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 97BDB7CF8DB2DCA203558023 /* libPods-Tests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +46,22 @@
 
 /* Begin PBXFileReference section */
 		0695CB6DBAC2DBE6AEC22495 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		1DCCDD37E3F92CD5D9B58784 /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		28A3A4C37AE962467B547497 /* Pods-ZEasing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZEasing.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZEasing/Pods-ZEasing.debug.xcconfig"; sourceTree = "<group>"; };
+		38D781C91AF77BFE00ABF155 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		38D781CB1AF77BFE00ABF155 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		38D781CE1AF77C2D00ABF155 /* ZEasing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZEasing.h; sourceTree = "<group>"; };
+		38D781CF1AF77C2D00ABF155 /* ZEasing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZEasing.m; sourceTree = "<group>"; };
+		38D781D11AF77D0B00ABF155 /* ZEasing+Linear.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ZEasing+Linear.h"; sourceTree = "<group>"; };
+		38D781D21AF77D0B00ABF155 /* ZEasing+Linear.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ZEasing+Linear.m"; sourceTree = "<group>"; };
+		38D781D41AF79FED00ABF155 /* ZEasing+Quadratic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ZEasing+Quadratic.h"; sourceTree = "<group>"; };
+		38D781D51AF79FED00ABF155 /* ZEasing+Quadratic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ZEasing+Quadratic.m"; sourceTree = "<group>"; };
+		38D781D71AF7A48500ABF155 /* ZEasing+Cubic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ZEasing+Cubic.h"; sourceTree = "<group>"; };
+		38D781D81AF7A48500ABF155 /* ZEasing+Cubic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ZEasing+Cubic.m"; sourceTree = "<group>"; };
+		38D781DA1AF7A5A400ABF155 /* ZEasing+Quart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ZEasing+Quart.h"; sourceTree = "<group>"; };
+		38D781DB1AF7A5A400ABF155 /* ZEasing+Quart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ZEasing+Quart.m"; sourceTree = "<group>"; };
+		38D781DD1AF7A69C00ABF155 /* ZEasing+Quintic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ZEasing+Quintic.h"; sourceTree = "<group>"; };
+		38D781DE1AF7A69C00ABF155 /* ZEasing+Quintic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ZEasing+Quintic.m"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* ZEasing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZEasing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -57,8 +83,12 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		8583DECA00710DFC6911CE59 /* ZEasing.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = ZEasing.podspec; path = ../ZEasing.podspec; sourceTree = "<group>"; };
-		ADE13370373CE90C78011403 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		8583DECA00710DFC6911CE59 /* ZEasing.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZEasing.podspec; path = ../ZEasing.podspec; sourceTree = "<group>"; };
+		8D37D83B8D7B476AD60A0CA4 /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
+		97BDB7CF8DB2DCA203558023 /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADE13370373CE90C78011403 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C09EEBD79C7EC7C94460CD22 /* libPods-ZEasing.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZEasing.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D796DE2E0AB5A8974B88E053 /* Pods-ZEasing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZEasing.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZEasing/Pods-ZEasing.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +99,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
+				9B8A637F9AC43DFED0EED5EF /* libPods-ZEasing.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,12 +110,62 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
+				FC68BBE59C238A38FF7B2260 /* libPods-Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		38D781C71AF77BFE00ABF155 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				38D781C81AF77BFE00ABF155 /* Assets */,
+				38D781CA1AF77BFE00ABF155 /* Classes */,
+			);
+			name = Pod;
+			path = ../../Pod;
+			sourceTree = "<group>";
+		};
+		38D781C81AF77BFE00ABF155 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				38D781C91AF77BFE00ABF155 /* .gitkeep */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		38D781CA1AF77BFE00ABF155 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				38D781CB1AF77BFE00ABF155 /* .gitkeep */,
+				38D781CE1AF77C2D00ABF155 /* ZEasing.h */,
+				38D781CF1AF77C2D00ABF155 /* ZEasing.m */,
+				38D781D11AF77D0B00ABF155 /* ZEasing+Linear.h */,
+				38D781D21AF77D0B00ABF155 /* ZEasing+Linear.m */,
+				38D781D41AF79FED00ABF155 /* ZEasing+Quadratic.h */,
+				38D781D51AF79FED00ABF155 /* ZEasing+Quadratic.m */,
+				38D781D71AF7A48500ABF155 /* ZEasing+Cubic.h */,
+				38D781D81AF7A48500ABF155 /* ZEasing+Cubic.m */,
+				38D781DA1AF7A5A400ABF155 /* ZEasing+Quart.h */,
+				38D781DB1AF7A5A400ABF155 /* ZEasing+Quart.m */,
+				38D781DD1AF7A69C00ABF155 /* ZEasing+Quintic.h */,
+				38D781DE1AF7A69C00ABF155 /* ZEasing+Quintic.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		491EBBDBE880E04092493CBC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1DCCDD37E3F92CD5D9B58784 /* Pods-Tests.debug.xcconfig */,
+				8D37D83B8D7B476AD60A0CA4 /* Pods-Tests.release.xcconfig */,
+				28A3A4C37AE962467B547497 /* Pods-ZEasing.debug.xcconfig */,
+				D796DE2E0AB5A8974B88E053 /* Pods-ZEasing.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -93,6 +174,7 @@
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
+				491EBBDBE880E04092493CBC /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -112,6 +194,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
+				97BDB7CF8DB2DCA203558023 /* libPods-Tests.a */,
+				C09EEBD79C7EC7C94460CD22 /* libPods-ZEasing.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -119,6 +203,7 @@
 		6003F593195388D20070C39A /* ZEasing */ = {
 			isa = PBXGroup;
 			children = (
+				38D781C71AF77BFE00ABF155 /* Pod */,
 				6003F59C195388D20070C39A /* ZAppDelegate.h */,
 				6003F59D195388D20070C39A /* ZAppDelegate.m */,
 				6003F59F195388D20070C39A /* Main_iPhone.storyboard */,
@@ -178,9 +263,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "ZEasing" */;
 			buildPhases = (
+				063C290FBC61FF6C2A198DEA /* Check Pods Manifest.lock */,
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
+				F631441E4ED55E31490B29CC /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -195,9 +282,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "Tests" */;
 			buildPhases = (
+				1F161E163026D83D19E0AA9A /* Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
+				55B5AD6ACCE84B32AEF965EC /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -224,7 +313,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "PROJECT" */;
+			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "ZEasing" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -250,6 +339,8 @@
 			files = (
 				6003F5A4195388D20070C39A /* Main_iPad.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				38D781CC1AF77BFE00ABF155 /* .gitkeep in Resources */,
+				38D781CD1AF77BFE00ABF155 /* .gitkeep in Resources */,
 				6003F5A1195388D20070C39A /* Main_iPhone.storyboard in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
@@ -265,13 +356,82 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		063C290FBC61FF6C2A198DEA /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1F161E163026D83D19E0AA9A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		55B5AD6ACCE84B32AEF965EC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tests/Pods-Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F631441E4ED55E31490B29CC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZEasing/Pods-ZEasing-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6003F586195388D20070C39A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38D781D61AF79FED00ABF155 /* ZEasing+Quadratic.m in Sources */,
+				38D781D31AF77D0B00ABF155 /* ZEasing+Linear.m in Sources */,
 				6003F59E195388D20070C39A /* ZAppDelegate.m in Sources */,
+				38D781DC1AF7A5A400ABF155 /* ZEasing+Quart.m in Sources */,
+				38D781D91AF7A48500ABF155 /* ZEasing+Cubic.m in Sources */,
+				38D781D01AF77C2D00ABF155 /* ZEasing.m in Sources */,
 				6003F5A7195388D20070C39A /* ZViewController.m in Sources */,
+				38D781DF1AF7A69C00ABF155 /* ZEasing+Quintic.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -404,6 +564,7 @@
 		};
 		6003F5C0195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28A3A4C37AE962467B547497 /* Pods-ZEasing.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -417,6 +578,7 @@
 		};
 		6003F5C1195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D796DE2E0AB5A8974B88E053 /* Pods-ZEasing.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -430,6 +592,7 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DCCDD37E3F92CD5D9B58784 /* Pods-Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ZEasing.app/ZEasing";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -452,6 +615,7 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D37D83B8D7B476AD60A0CA4 /* Pods-Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ZEasing.app/ZEasing";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -471,7 +635,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6003F585195388D10070C39A /* Build configuration list for PBXProject "PROJECT" */ = {
+		6003F585195388D10070C39A /* Build configuration list for PBXProject "ZEasing" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6003F5BD195388D20070C39A /* Debug */,

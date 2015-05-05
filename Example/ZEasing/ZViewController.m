@@ -7,18 +7,22 @@
 //
 
 #import "ZViewController.h"
-
-@interface ZViewController ()
-
-@end
-
+#import "ZEasing.h"
 @implementation ZViewController
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    UIView *aaa = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 10, 10)];
+    aaa.backgroundColor = [UIColor blackColor];
+    [self.view addSubview:aaa];
+    CGFloat a = [ZEasing tween:0.1 fromValue:1.0 toValue:100 duration:0.2 tweenType:TweenTypeQuintic easeType:EaseTypeEaseOut] ;
+    NSLog(@"aaa : %f", a);
 }
+
+
 
 - (void)didReceiveMemoryWarning
 {
