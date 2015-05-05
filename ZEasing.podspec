@@ -10,18 +10,15 @@
 Pod::Spec.new do |s|
   s.name             = "ZEasing"
   s.version          = "0.1.0"
-  s.summary          = "A short description of ZEasing."
+  s.summary          = "IOS 端的缓动函数库"
   s.description      = <<-DESC
-                       An optional longer description of ZEasing
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
+                       缓动曲线是一个0为起点的连续函数曲线，x轴表示时间变化，y轴表示位移变化。曲线的斜率反映出运动的数度
                        DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/ZEasing"
+  s.homepage         = "https://github.com/zhuayi/ZEasing"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "zhuayi" => "2179942@qq.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/ZEasing.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/zhuayi/ZEasing.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '7.0'

@@ -10,4 +10,27 @@
 
 @implementation ZEasing_Quintic
 
++ (CGFloat)easeIn:(CGFloat)currentTime fromValue:(CGFloat)fromValue toValue:(CGFloat)toValue duration:(CGFloat)duration {
+    
+    toValue = toValue - fromValue;
+    
+    return toValue * (currentTime /= duration) * currentTime * currentTime * currentTime * currentTime + fromValue;
+}
+
++ (CGFloat)easeOut:(CGFloat)currentTime fromValue:(CGFloat)fromValue toValue:(CGFloat)toValue duration:(CGFloat)duration {
+    
+    toValue = toValue - fromValue;
+    return toValue * ((currentTime = currentTime / duration - 1) * currentTime * currentTime * currentTime  * currentTime + 1) + fromValue;
+}
+
++ (CGFloat)easeInOut:(CGFloat)currentTime fromValue:(CGFloat)fromValue toValue:(CGFloat)toValue duration:(CGFloat)duration {
+    
+    toValue = toValue - fromValue;
+    if ((currentTime /= duration / 2) < 1) {
+        return toValue / 2 * currentTime * currentTime * currentTime * currentTime * currentTime + fromValue;
+    } else {
+        return toValue / 2 * ((currentTime -= 2) * currentTime * currentTime * currentTime * currentTime - 2) + fromValue;
+    }
+}
+
 @end

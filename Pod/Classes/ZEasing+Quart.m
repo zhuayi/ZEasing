@@ -19,7 +19,7 @@
 + (CGFloat)easeOut:(CGFloat)currentTime fromValue:(CGFloat)fromValue toValue:(CGFloat)toValue duration:(CGFloat)duration {
     
     toValue = toValue - fromValue;
-    return -toValue * (currentTime = currentTime / duration - 1) * currentTime * currentTime * currentTime + fromValue;
+    return -toValue * ((currentTime = currentTime / duration - 1) * currentTime * currentTime * currentTime - 1 ) + fromValue;
 }
 
 + (CGFloat)easeInOut:(CGFloat)currentTime fromValue:(CGFloat)fromValue toValue:(CGFloat)toValue duration:(CGFloat)duration {
