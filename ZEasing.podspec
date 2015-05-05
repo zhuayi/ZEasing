@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "ZEasing"
-  s.version          = "0.1.0"
+  s.version          = "0.1.2"
   s.summary          = "IOS 端的缓动函数库"
   s.description      = <<-DESC
                        缓动曲线是一个0为起点的连续函数曲线，x轴表示时间变化，y轴表示位移变化。曲线的斜率反映出运动的数度
